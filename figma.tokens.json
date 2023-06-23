@@ -4,7 +4,7 @@
       "none": {
         "value": "0",
         "type": "borderRadius",
-        "description": "\n"
+        "description": "no radius\n"
       },
       "small": {
         "value": "8px",
