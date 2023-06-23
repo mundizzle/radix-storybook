@@ -563,8 +563,7 @@
       "Foundation": {
         "brandPrimary": {
           "value": "#f2d462",
-          "type": "color",
-          "description": "brand_p600"
+          "type": "color"
         },
         "black": {
           "value": "#000000",
