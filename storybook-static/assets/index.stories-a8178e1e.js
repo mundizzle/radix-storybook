@@ -1,0 +1,4 @@
+import{j as r}from"./index-b6d4726d.js";import{$ as o}from"./index-a87b8609.js";import"./index-ad8e37b4.js";import"./_commonjsHelpers-725317a4.js";import"./extends-98964cd2.js";const a=()=>r.jsxs("div",{children:[r.jsx("div",{children:"Radix Primitives"}),r.jsx("div",{children:"An open-source UI component library."}),r.jsx(o,{}),r.jsxs("div",{children:[r.jsx("div",{children:"Blog"}),r.jsx(o,{decorative:!0,orientation:"vertical"}),r.jsx("div",{children:"Docs"}),r.jsx(o,{decorative:!0,orientation:"vertical"}),r.jsx("div",{children:"Source"})]})]}),x={title:"Radix UI/Separator",component:a},e={args:{}};var t,i,s;e.parameters={...e.parameters,docs:{...(t=e.parameters)==null?void 0:t.docs,source:{originalSource:`{
+  args: {}
+}`,...(s=(i=e.parameters)==null?void 0:i.docs)==null?void 0:s.source}}};const l=["Default"];export{e as Default,l as __namedExportsOrder,x as default};
+//# sourceMappingURL=index.stories-a8178e1e.js.map

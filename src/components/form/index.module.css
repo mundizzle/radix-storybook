@@ -1,0 +1,71 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 8px;
+  background: var(--globalColorsFoundationWhite);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 24px;
+}
+
+.root p {
+  margin-bottom: 24px;
+}
+
+.heading {
+  color: var(--colorsCoreContentPrimary);
+  font-size: var(--fontSize16px);
+  font-weight: var(--fontWeightsMedium);
+}
+
+.field {
+  display: inline-grid;
+  grid-template-columns: 100px 1fr;
+  gap: 20px;
+  align-items: center;
+}
+
+.root label {
+  text-align: right;
+  font-size: var(--fontSize14px);
+  line-height: var(--lineHeights16px);
+}
+
+.root input[type="text"],
+.root input[type="email"],
+.root input[type="password"] {
+  min-width: 318px;
+  border-radius: 4px;
+  overflow: hidden;
+  outline: 2px solid var(--globalColorsNeutralGray300);
+  background: var(--globalColorsFoundationWhite);
+  font-size: var();
+  line-height: var(--lineHeights36px);
+  padding: 0 10px;
+}
+
+.root input[type="text"]:focus-visible,
+.root input[type="email"]:focus-visible,
+.root input[type="password"]:focus-visible {
+  outline: 1px solid var(--colorsBrandSecondaryBrandS400);
+  background: var(--colorsFoundationWhite);
+  box-shadow: 0px 0px 10px 0px rgba(16, 72, 108, 0.4);
+}
+
+.button-container {
+  text-align: right;
+}
+
+.root button {
+  background-color: #fff;
+  color: var(--globalColorsFoundationBrandPrimary);
+  text-align: center;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 500;
+  line-height: 36px;
+  border: 1px solid var(--globalColorsFoundationBrandPrimary);
+  border-radius: 8px;
+  background-color: var(--globalColorsFoundationWhite);
+  padding: 0 50px;
+}
