@@ -17,16 +17,6 @@ const sd = StyleDictionary.extend({
         },
       ],
     },
-    js: {
-      buildPath: "./",
-      transformGroup: "tokens-studio",
-      files: [
-        {
-          destination: "tokens.js",
-          format: "javascript/es6",
-        },
-      ],
-    },
   },
 });
 
