@@ -375,16 +375,16 @@
         "description": "\n"
       },
       "small": {
-        "value": "8px",
+        "value": "0",
         "type": "borderRadius",
         "description": "Small\n"
       },
       "medium": {
-        "value": "12px",
+        "value": "0",
         "type": "borderRadius"
       },
       "large": {
-        "value": "16px",
+        "value": "0",
         "type": "borderRadius"
       },
       "x-large": {
@@ -450,7 +450,7 @@
     },
     "fontFamilies": {
       "primary-font": {
-        "value": "Montserrat",
+        "value": "Inter",
         "type": "fontFamilies"
       }
     },
