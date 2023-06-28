@@ -1,4 +1,7 @@
 .root {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeSpeed;
+  min-block-size: 100%;
   display: inline-flex;
   flex-direction: column;
   gap: 20px;
@@ -6,6 +9,12 @@
   background: var(--globalColorsFoundationWhite);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   padding: 24px;
+  max-width: 400px;
+
+  font-family: var(--font-family-default);
+  font-size: var(--font-size-default);
+  font-weight: var(--font-weight-default);
+  line-height: var(--line-height-default);
 }
 
 .root p {
@@ -13,35 +22,25 @@
 }
 
 .heading {
-  color: var(--colorsCoreContentPrimary);
-  font-size: var(--fontSize16px);
-  font-weight: var(--fontWeightsMedium);
+  font-size: var(--heading-size-default);
+  font-weight: var(--heading-weight-default);
+  text-transform: var(--text-transform-default);
 }
 
-.field {
-  display: inline-grid;
-  grid-template-columns: 100px 1fr;
-  gap: 20px;
-  align-items: center;
-}
-
-.root label {
-  text-align: right;
-  font-size: var(--fontSize14px);
-  line-height: var(--lineHeights16px);
+.root input::placeholder {
+  font-weight: var(--heading-weight-default);
+  text-transform: var(--text-transform-default);
 }
 
 .root input[type="text"],
 .root input[type="email"],
 .root input[type="password"] {
-  min-width: 318px;
-  border-radius: 4px;
+  display: block;
+  width: 100%;
+  border-radius: 0;
   overflow: hidden;
-  outline: 2px solid var(--globalColorsNeutralGray300);
-  background: var(--globalColorsFoundationWhite);
-  font-size: var();
-  line-height: var(--lineHeights36px);
-  padding: 0 10px;
+  border: 1px solid var(--border-color-default);
+  padding: 5px 10px;
 }
 
 .root input[type="text"]:focus-visible,
@@ -57,15 +56,15 @@
 }
 
 .root button {
-  background-color: #fff;
-  color: var(--globalColorsFoundationBrandPrimary);
   text-align: center;
-  font-size: 14px;
   text-align: center;
   font-weight: 500;
   line-height: 36px;
-  border: 1px solid var(--globalColorsFoundationBrandPrimary);
-  border-radius: 8px;
-  background-color: var(--globalColorsFoundationWhite);
   padding: 0 50px;
+  font-size: var(--font-size-default);
+  border: 1px solid var(--globalColorsFoundationBrandPrimary);
+  border-radius: var(--border-radius-default);
+  color: var(--color-default);
+  background-color: var(--background-color-default);
+  text-transform: var(--text-transform-default);
 }

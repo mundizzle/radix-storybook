@@ -4,7 +4,7 @@ const StyleDictionary = require("style-dictionary");
 registerTransforms(StyleDictionary);
 
 const sd = StyleDictionary.extend({
-  source: ["**/*.tokens.json"],
+  source: ["figma.tokens.json"],
   platforms: {
     css: {
       buildPath: "./",

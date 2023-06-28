@@ -1,7 +1,0 @@
-:root {
-  --font-family-default: var(--fontFamiliesPrimaryFont);
-  --font-size-default: var(--fontSize14px);
-  --font-weight-default: var(--fontWeightsRegular);
-  --line-height-default: var(--lineHeights20px);
-  --color-headings-default: var(--colorsBrandPrimaryBrandP600);
-}

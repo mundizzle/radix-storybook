@@ -1,32 +1,24 @@
-import {
-  Root,
-  Field,
-  Label,
-  Message,
-  Control,
-  Submit,
-} from "@radix-ui/react-form";
+import { Root, Field, Control, Submit } from "@radix-ui/react-form";
 import styles from "./index.module.css";
 
-const Form = () => (
-  <Root className={styles.root}>
-    <h2 className={styles.heading}>Login</h2>
+interface Props {
+  tokens: string;
+}
+
+const Form = ({ tokens }: Props) => (
+  <Root className={styles.root} data-tokens={tokens}>
+    <h2 className={styles.heading}>Card Title</h2>
     <p className={styles.instructions}>
       Lorem ipsum dolor sit amet consectetur. Nec egesscele risque.
     </p>
     <Field className={styles.field} name="email">
-      <Label>Email</Label>
-      <Message match="valueMissing">Please enter your email</Message>
-      <Message match="typeMismatch">Please provide a valid email</Message>
       <Control asChild>
-        <input type="email" required />
+        <input type="email" required placeholder="Email" />
       </Control>
     </Field>
     <Field className={styles.field} name="password">
-      <Label>Password</Label>
-      <Message match="valueMissing">Please enter a password</Message>
       <Control asChild>
-        <input type="password" required />
+        <input type="password" required placeholder="Password" />
       </Control>
     </Field>
     <div className={styles["button-container"]}>

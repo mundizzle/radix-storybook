@@ -1,0 +1,171 @@
+/**
+ * Do not edit directly
+ * Generated on Wed, 28 Jun 2023 00:01:20 GMT
+ */
+
+[data-tokens="Woodward"] {
+  --globalColorsFoundationBrandPrimary: #f2d462;
+  --globalColorsFoundationBlack: #000000;
+  --globalColorsFoundationWhite: #ffffff;
+  --globalColorsBrandPrimaryBrandP700: #332900;
+  --globalColorsBrandPrimaryBrandP600: #957805;
+  --globalColorsBrandPrimaryBrandP500: #dbb317;
+  --globalColorsBrandPrimaryBrandP400: #ecc735;
+  --globalColorsBrandPrimaryBrandP300: #f2d462;
+  --globalColorsBrandPrimaryBrandP200: #f8e6a0;
+  --globalColorsBrandPrimaryBrandP100: #fffbeb;
+  --globalColorsBrandPrimaryBrandP50: #fffbeb;
+  --globalColorsNeutralGray900: #141414; /* #141414 */
+  --globalColorsNeutralGray800: #1f1f1f; /* #1F1F1F */
+  --globalColorsNeutralGray700: #333333; /* #333333 */
+  --globalColorsNeutralGray600: #545454; /* #545454 */
+  --globalColorsNeutralGray500: #757575; /* #757575 */
+  --globalColorsNeutralGray400: #afafaf; /* #AFAFAF */
+  --globalColorsNeutralGray300: #cbcbcb; /* #CBCBCB */
+  --globalColorsNeutralGray200: #e2e2e2; /* #E2E2E2 */
+  --globalColorsNeutralGray100: #eeeeee; /* #EEEEEE */
+  --globalColorsNeutralGray50: #f6f6f6; /* #F6F6F6 */
+  --globalColorsSemanticGreenGreen700: #063d1b;
+  --globalColorsSemanticGreenGreen600: #0a3f1a;
+  --globalColorsSemanticGreenGreen500: #124c1c;
+  --globalColorsSemanticGreenGreen400: #277227;
+  --globalColorsSemanticGreenGreen300: #6fb557;
+  --globalColorsSemanticGreenGreen200: #b6e188;
+  --globalColorsSemanticGreenGreen100: #d5f6ad;
+  --globalColorsSemanticGreenGreen50: #ebfcd5;
+  --globalColorsSemanticRedRed700: #5c1d16;
+  --globalColorsSemanticRedRed600: #892c21;
+  --globalColorsSemanticRedRed500: #ae372a;
+  --globalColorsSemanticRedRed400: #d44333;
+  --globalColorsSemanticRedRed300: #eb7567;
+  --globalColorsSemanticRedRed200: #f4afa7;
+  --globalColorsSemanticRedRed100: #fadbd7;
+  --globalColorsSemanticRedRed50: #fdf0ef;
+  --globalColorsCoreContentPrimary: #000000;
+  --globalColorsCoreContentSecondary: #545454;
+  --globalColorsCoreContentTertiary: #757575;
+  --globalColorsCoreContentInversePrimary: #ffffff;
+  --globalColorsCoreContentInverseSecondary: #afafaf;
+  --globalColorsCoreContentInverseTertiary: #e2e2e2;
+  --globalColorsCoreBorderPrimary: #d9d9d9; /* #D9D9D9 */
+  --globalColorsCoreBorderHover: #141414; /* #141414 */
+  --globalColorsCoreBorderSelected: #09c3ec; /* #09C3EC */
+  --globalColorsCoreBorderInversePrimary: #ffffff;
+  --globalColorsCoreBorderInverseHover: #afafaf;
+  --globalColorsCoreBorderInverseSelected: #09c3ec;
+  --globalColorsCoreBackgroundPrimary: #ffffff; /* #FFFFFF */
+  --globalColorsCoreBackgroundSecondary: #f6f6f6; /* #F6F6F6 */
+  --globalColorsCoreBackgroundTertiary: #eeeeee; /* #EEEEEE */
+  --globalColorsCoreBackgroundInversePrimary: #000000;
+  --globalColorsCoreBackgroundInverseSecondary: #1f1f1f;
+  --globalColorsCoreBackgroundInverseTertiary: #141414;
+  --globalColorsCoreUtilityNegative: #d44333; /* #D44333 */
+  --globalColorsCoreUtilityWarning: #e4b725; /* #E4B725 */
+  --globalColorsCoreUtilityPositive: #277227; /* #277227 */
+  --globalColorsCoreUtilityInverseNegative: #eb7567;
+  --globalColorsCoreUtilityInverseWarning: #f9db4a;
+  --globalColorsCoreUtilityInversePositive: #6fb557;
+  --globalColorsCoreTintsBrandPrimary: #fffbeb;
+  --globalColorsCoreTintsBrandSecondary: #dedcce;
+  --globalColorsCoreTintsNegartive: #fdf0ef; /* #FDF0EF */
+  --globalColorsCoreTintsWarning: #fff1c0; /* #FFF1C0 */
+  --globalColorsCoreTintsPositive: #ebfcd5; /* #EBFCD5 */
+  --globalColorsCoreTintsInverseBrandPrimary: #fcf0c5;
+  --globalColorsCoreTintsInverseBrandSecondary: #dedcce;
+  --globalColorsCoreTintsInverseNegative: #fadbd7;
+  --globalColorsCoreTintsInverseWarning: #ffeb92;
+  --globalColorsCoreTintsInversePositive: #d5f6ad;
+  --globalColorsCoreOverlayDark: #0000004d; /* Light background overlays */
+  --globalColorsCoreOverlayLight: #00000014; /* Light background overlays */
+  --globalColorsCoreOverlayInverseLight: #ffffff14; /* Dark background overlays */
+  --globalColorsCoreOverlayInverseDark: #ffffff4d; /* Dark background overlays */
+  --globalNone: 0; /*   */
+  --globalSmall: 0; /* Small  */
+  --globalMedium: 0;
+  --globalLarge: 0;
+  --globalXLarge: 20px;
+  --globalFull: 999px;
+  --global12px: 12px;
+  --global14px: 14px;
+  --global16px: 16px;
+  --global52px: 52px;
+  --global20px: 20px;
+  --global24px: 24px;
+  --global28px: 28px;
+  --global32px: 32px;
+  --global36px: 36px;
+  --global40px: 40px;
+  --global44px: 44px;
+  --global64px: 64px;
+  --global112px: 112px;
+  --fontFamiliesPrimaryFont: Founders Grotesk;
+  --lineHeights12px: 12px;
+  --lineHeights14px: 14px;
+  --lineHeights16px: 16px;
+  --lineHeights20px: 20px;
+  --lineHeights24px: 24px;
+  --lineHeights28px: 28px;
+  --lineHeights32px: 32px;
+  --lineHeights36px: 36px;
+  --lineHeights52px: 52px;
+  --lineHeights40px: 40px;
+  --lineHeights44px: 44px;
+  --lineHeights64px: 64px;
+  --lineHeights112px: 112px;
+  --lineHeightsAuto: AUTO;
+  --fontWeightsBold: 700;
+  --fontWeightsMedium: 500;
+  --fontWeightsRegular: 400;
+  --fontWeightsItalic: Italic;
+  --fontSize10px: 10px;
+  --fontSize12px: 12px;
+  --fontSize14px: 14px;
+  --fontSize16px: 16px;
+  --fontSize18px: 18px;
+  --fontSize20px: 20px;
+  --fontSize24px: 24px;
+  --fontSize28px: 28px;
+  --fontSize32px: 32px;
+  --fontSize36px: 36px;
+  --fontSize40px: 40px;
+  --fontSize44px: 44px;
+  --fontSize52px: 52px;
+  --fontSize96px: 96px;
+  --letterSpacing0: 0;
+  --paragraphSpacing0: 0;
+  --xxLargeHeading: 700 40px/52px "Founders Grotesk";
+  --xLargeHeading: 700 36px/44px "Founders Grotesk";
+  --largeDisplay: 700 96px/112px "Founders Grotesk";
+  --largeHeading: 700 32px/40px "Founders Grotesk";
+  --largeLabel: 500 18px/24px "Founders Grotesk";
+  --largeParagraph: 400 18px/28px "Founders Grotesk"; /* Regular 400 */
+  --mediumDisplay: 700 52px/64px "Founders Grotesk";
+  --mediumHeading: 700 28px/36px "Founders Grotesk";
+  --mediumLabel: 500 16px/20px "Founders Grotesk";
+  --mediumParagraph: 400 16px/24px "Founders Grotesk";
+  --smallDisplay: 700 44px/52px "Founders Grotesk";
+  --smallHeading: 700 24px/32px "Founders Grotesk";
+  --smallLabel: 500 14px/16px "Founders Grotesk";
+  --smallParagraph: 400 14px/20px "Founders Grotesk";
+  --xxSmallLabel: 500 10px/12px "Founders Grotesk";
+  --xxSmallParagraph: 400 10px/14px "Founders Grotesk";
+  --xxSmallItalic: Italic 10px/14px "Founders Grotesk";
+  --xSmallDisplay: 700 36px/44px "Founders Grotesk";
+  --xSmallHeading: 700 20px/28px "Founders Grotesk";
+  --xSmallLabel: 500 12px/14px "Founders Grotesk";
+  --xSmallParagraph: 400 12px / AUTO "Founders Grotesk";
+  --textCaseNone: none;
+  --textDecorationNone: none;
+  --paragraphIndent0: 0px;
+  --font-family-default: Founders Grotesk;
+  --font-size-default: 14px;
+  --font-weight-default: 400;
+  --line-height-default: 20px;
+  --color-default: #000000;
+  --background-color-default: #f2d462;
+  --border-radius-default: 0px;
+  --text-transform-default: uppercase;
+  --heading-size-default: 16px;
+  --heading-weight-default: 600;
+  --border-color-default: #ccc;
+}
