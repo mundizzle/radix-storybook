@@ -375,20 +375,20 @@
         "description": "\n"
       },
       "small": {
-        "value": "0",
+        "value": "16px",
         "type": "borderRadius",
         "description": "Small\n"
       },
       "medium": {
-        "value": "0",
+        "value": "20px",
         "type": "borderRadius"
       },
       "large": {
-        "value": "0",
+        "value": "24px",
         "type": "borderRadius"
       },
       "x-large": {
-        "value": "20px",
+        "value": "32px",
         "type": "borderRadius"
       },
       "full": {
@@ -450,7 +450,7 @@
     },
     "fontFamilies": {
       "primary-font": {
-        "value": "Inter",
+        "value": "Montserrat",
         "type": "fontFamilies"
       }
     },
